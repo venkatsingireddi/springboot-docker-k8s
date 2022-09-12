@@ -1,7 +1,7 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 
 #ARG DB_HOST=host.docker.internal
-ARG DB_HOST=127.0.0.1
+ARG DB_HOST=host.docker.internal
 ARG DB_NAME=emm
 ARG POSTGRES_USER=postgres
 ARG POSTGRES_PASSWORD=postgres
